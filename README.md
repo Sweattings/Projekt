@@ -1,3 +1,1 @@
-# Ein Schul projekt 2021
-
-# HHS Karlsruhe
+# Schul HTML Projekt 2021
