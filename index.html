@@ -8,7 +8,7 @@
 </head>
 
 <body>
-    <h1>NFL - Im allgemeinen</h1><br><br>
+    <!-- <h1>NFL - Im allgemeinen</h1><br><br> -->
     <p>Die National Football League (NFL) ist eine US-amerikanische Profiliga im American
         Football. Sie besteht aus 32
         Teams, die als Franchises in der National Football Conference (NFC) und der American Football Conference (AFC)
@@ -28,11 +28,40 @@
     <img class="resizre_nfl_logo" src="/pic/nfl_logo.png" alt="nfl_logo">
     <br>
 
+
+    <!--
     <button class="button button1" onclick="document.location='Division_1.html'">Division 1</button><br><br>
     <button class="button button1" onclick="document.location='Division_2.html'">Division 2</button><br><br>
     <button class="button button1" onclick="document.location='Division_3.html'">Division 3</button><br><br>
+    
 
+    -->
     <script src="app/js/script.js"></script>
+
+    <!-- The Overlay -->
+    <div id="myNav" class="overlay">
+
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="Overlay-content">
+            <a href="Division_1.html">Division 1</a>
+            <a href="Division_2.html">Division 2</a>
+            <a href="Division_3.html">Division 3</a>
+            <a href="index.html">Test</a>
+        </div>
+
+    </div>
+
+    <span onclick="openNav()">open</span>
+
+
+
+    <div class="navbar" id="myNavbar">
+        <a href="/index.html" class="active">Home</a>
+        <a href="https://www.nfl.com/news/">News</a>
+        <a href="mailto:mobilecs@nflhelp.com?subject=Ich Will Geld">Conatact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+
 </body>
 
 
