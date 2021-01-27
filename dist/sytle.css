@@ -1,7 +1,11 @@
+body {
+  background-color: #888, 0, 1;
+}
+
 html {
   font-size: 100%;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 *,
@@ -14,4 +18,5 @@ html {
   background-color: #202020;
   color: #ffffff;
 }
+
 /*# sourceMappingURL=sytle.css.map */

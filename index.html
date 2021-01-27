@@ -3,12 +3,22 @@
 
 <head>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="/dist/sytle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
 </head>
 
 <body>
-    <!-- <h1>NFL - Im allgemeinen</h1><br><br> -->
+
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+
+    <h1>NFL - Im allgemeinen</h1><br><br>
+
     <p>Die National Football League (NFL) ist eine US-amerikanische Profiliga im American
         Football. Sie besteht aus 32
         Teams, die als Franchises in der National Football Conference (NFC) und der American Football Conference (AFC)
@@ -38,19 +48,28 @@
     -->
     <script src="app/js/script.js"></script>
 
-    <!-- The Overlay -->
+
+
+
+
+
+
     <div id="myNav" class="overlay">
 
+        <!-- Button to close the overlay navigation -->
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <div class="Overlay-content">
+
+        <!-- Overlay content -->
+        <div class="overlay-content">
             <a href="Division_1.html">Division 1</a>
             <a href="Division_2.html">Division 2</a>
             <a href="Division_3.html">Division 3</a>
-            <a href="index.html">Test</a>
+            <a href="index.html">TEST</a>
         </div>
 
     </div>
 
+    <!-- Use any element to open/show the overlay navigation menu -->
     <span onclick="openNav()">open</span>
 
 
