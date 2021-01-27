@@ -44,3 +44,10 @@ p {
     background-color: #4CAF50;
     color: white;
 }
+
+
+.resizre_nfl_logo {
+    position: absolute;
+    top: 6%;
+    left: 85%;
+}
