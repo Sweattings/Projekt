@@ -49,9 +49,11 @@ p {
 
 
 .resizre_nfl_logo {
+    max-width: 100%;
+    height: auto;
     position: absolute;
-    top: 150px;
-    left: 85%;
+    top: 10%;
+    left: 80%;
 }
 
 .nfl_allgemein {
@@ -219,4 +221,16 @@ span {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+}
+
+@media screen and (max-width: 1565px) {
+    .resizre_nfl_logo {
+        position: absolute;
+        top: 10%;
+        left: 75%;
+    }
+}
+
+@media screen and (min-width: 1278px) {
+    .resizre_nfl_logo {}
 }
